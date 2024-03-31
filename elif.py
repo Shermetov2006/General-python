@@ -17,7 +17,7 @@ Created on Wed Mar 27 17:37:38 2024
 #    narx=1000
 #else:
 #    narx=15000
-#print(f'kirish {narx} som')
+print('kirish narx som')
 
 #kun =input("what is day today?")
 #harorat = float(input("when is temprich?"))
@@ -26,7 +26,7 @@ Created on Wed Mar 27 17:37:38 2024
 #elif kun.lower() =='yakshanba' and harorat<36.6:
 #    print("uyda o'tiramiz")
 #else:
-#    print("bugun ish kuni")
+print("bugun ish kuni")
 
 
 #kun =input("what is day today?")
