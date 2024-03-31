@@ -8,16 +8,16 @@ Created on Wed Mar 27 17:37:38 2024
 """
 
 
-#yosh = int(input("yosh"))
-#if yosh<=4:
-#    narx=0
-#elif yosh<=12:
-#    narx=5000
-#elif yosh<= 18:
-#    narx=1000
-#else:
-#    narx=15000
-#print(f'kirish {narx} som')
+yosh = int(input("yosh"))
+if yosh<=4:
+    narx=0
+elif yosh<=12:
+    narx=5000
+elif yosh<= 18:
+    narx=1000
+else:
+    narx=15000
+print(f'kirish {narx} som')
 
 #kun =input("what is day today?")
 #harorat = float(input("when is temprich?"))
