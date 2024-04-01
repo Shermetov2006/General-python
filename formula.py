@@ -22,3 +22,4 @@
 #ValueError:
 #NameError:
 #set=bir narsani ikki marta takrorlamaydi.
+#items()=lugatlarni guruhlaydi.
