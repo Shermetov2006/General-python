@@ -20,20 +20,20 @@
 
  
 
-izoh={'integer':'butun sonlar','float':'onlik sonlar','string':'matn','if':'IF bu shart bajaruvchi operator if(agar)','else':'aks holda'}
-print(izoh['integer'].upper())
+#izoh={'integer':'butun sonlar','float':'onlik sonlar','string':'matn','if':'IF bu shart bajaruvchi operator if(agar)','else':'aks holda'}
+#print(izoh['integer'].upper())#
 
 
 
-kalit=input('kalit soz kiriting: ')
-print(izoh.get(kalit,'bunday soz mavjud emas'))
+#kalit=input('kalit soz kiriting: ')
+#print(izoh.get(kalit,'bunday soz mavjud emas'))
 
 
-kalit=input('kalit soz kiriting: ').lower()
-tarjima=izoh.get(kalit)
+#kalit=input('kalit soz kiriting: ').lower()
+#tarjima=izoh.get(kalit)
 
-if tarjima == None:
-    print("bunday kalit soz yoq")
+#if tarjima == None:
+ #   print("bunday kalit soz yoq")
 
-else:
-    print(f'{kalit.title()} sozi {tarjima} deb tarjima qilinadi')
+#else:
+ #   print(f'{kalit.title()} sozi {tarjima} deb tarjima qilinadi')
