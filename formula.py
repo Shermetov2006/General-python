@@ -21,3 +21,4 @@
 #IndexError: 
 #ValueError:
 #NameError:
+#set=bir narsani ikki marta takrorlamaydi.
