@@ -74,10 +74,6 @@ while True:
     else:
         ildiz = float(qiymat)**(0.5)
         print(f"{qiymat} ning ildizi {ildiz} ga teng")
-        
-mahsulotlar = ['un', 'yog', 'sovun', 'tuxum', 'piyoz',
-              'kartoshka', 'olma', 'banan', 'uzum', 'qovun']
-print(mahsulotlar)
 
 
 
