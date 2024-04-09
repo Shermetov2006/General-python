@@ -51,12 +51,6 @@ while True:
         print("Sizga chipta bepul")
     else:
         print(f"Chipta {narh} so'm")
-        
-        
- """Muzeyga chipta narhi foydalanuvchining yoshiga bog'liq: 7 dan yoshlarga - 2000 so'm, 7-18 gacha 3000 so'm, 
- 18-65 gacha 10000 so'm, 65 dan kattalarga bepul. Shunday while tsikl yozingki, dastur foydalanuvchi yoshini so'rasin va
-  chipta narhini chiqarsin. Foydalanuvchi exit yoki quit deb yozganda dastur to'xtasin (ikkita shartni ham tekshiring).
- Yuqoridagi dasturni turli usullarda yozib ko'ring (break, ishora, yoki shart tekshirish)"""       
 
 
 
