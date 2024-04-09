@@ -24,3 +24,5 @@
 #set=bir narsani ikki marta takrorlamaydi.
 #items()=lugatlarni guruhlaydi.
 #while()=takrorlanuvchi opetrator tugamaydi
+#def = funksiya
+#print(funksiya.__doc__)
