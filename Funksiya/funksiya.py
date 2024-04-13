@@ -82,4 +82,3 @@ Created on Tue Apr  9 09:55:31 2024
 #        if not son%i:
 #            print(f"{son} {i}ga qoldiqsiz bo'linadi")
 #devide(8)
-
