@@ -26,3 +26,6 @@
 #while()=takrorlanuvchi opetrator tugamaydi
 #def = funksiya
 #print(funksiya.__doc__)
+#randint= tasodifiy sonlarni aniqlaydi
+# choice = listdan tanlaydi tasodifiy
+#shuffle = [place replyce] JOYLAEINI YANI ORNINI ALMASHTIRADI
