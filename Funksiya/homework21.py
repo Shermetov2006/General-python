@@ -4,6 +4,7 @@ Created on Thu Apr 18 10:53:42 2024
 
 @author: фвьшт
 
+
 """
 
 def katta_harf(matnlar):
