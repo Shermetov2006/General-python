@@ -3,14 +3,16 @@
 Created on Thu Apr 18 10:53:42 2024
 
 @author: фвьшт
+
+
 """
 
-#1) def katta_harf(matnlar):
-#     for i in range(len(matnlar)):
-#         matnlar[i]=matnlar[i].title()
-# ismlar=["maqsad","farruh","ogabek","raulbek"]
-# katta_harf(ismlar)
-# print(ismlar)
+def katta_harf(matnlar):
+    for i in range(len(matnlar)):
+        matnlar[i]=matnlar[i].title()
+ismlar=["maqsad","farruh","ogabek","raulbek"]
+katta_harf(ismlar)
+print(ismlar)
 
 # 2)def katta_harf(matnlar):
 #     matnlar=matnlar[:]
