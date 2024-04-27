@@ -29,3 +29,5 @@
 #randint= tasodifiy sonlarni aniqlaydi
 # choice = listdan tanlaydi tasodifiy
 #shuffle = [place replyce] JOYLAEINI YANI ORNINI ALMASHTIRADI
+#sample=bir necha sonlarni chiqaradi {yashirin funksiya}
+#startswith=matnni bosh harfini tekshiradi.

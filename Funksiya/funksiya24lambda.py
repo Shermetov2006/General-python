@@ -29,5 +29,22 @@ Created on Sat Apr 27 11:59:57 2024
 # a_plus_b=list(map(lambda x,y: x+y, a,b))
 # print(a_plus_b)
 
-import random as  r
+# import random as  r
 
+# sonlar=r.sample(range(100), 10)
+# print(sonlar)
+
+# def juftmi(x):
+#     return x%2==0
+# print(list(filter(juftmi, sonlar)))
+
+# juft_sonlar=list(filter(lambda x: x%2==0, sonlar))
+# print(juft_sonlar)
+
+# mevalar=['olma','anor','anjir','shaftoli', 'orik','tarvuz','qovun','banan']
+# harf="o"
+#  mevalar_harf = list(filter(lambda meva: meva.startswith(harf), mevalar))
+# print(mevalar_harf)
+
+# mevalar_uzunligi=list(filter(lambda meva: len(meva)<=4, mevalar)) 
+# print(mevalar_uzunligi)
