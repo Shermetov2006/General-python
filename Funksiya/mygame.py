@@ -42,7 +42,7 @@ while True:
                         print("\n>>>SIZ YUTDINGIZ. [YOU WIN] \nSOVG'ANGIZNI BIZNING FILIALLARDAN OLIB KETISHINGIZ MUMKIN."
                                       f"RANDOM TANLAGAN RAQAM {a}")
                         if b>10:
-                            print(f">>>SIZ YUTQAZDINGIZ SIZ TALLAGAN SON {b} \nTASODIFIY RAQAM {a}")
+                            print(f">>>SIZ YUTQAZDINGIZ SIZ TALLAGAN RAQAM {b} \nTASODIFIY RAQAM {a}")
                             
                     else:
                          print(f"\n>>>SIZ YUTQAZDINGIZ SIZ TALLAGAN SON {b} \nTASODIFIY RAQAM {a}")
