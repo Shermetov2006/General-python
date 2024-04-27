@@ -41,10 +41,14 @@ Created on Sat Apr 27 11:59:57 2024
 # juft_sonlar=list(filter(lambda x: x%2==0, sonlar))
 # print(juft_sonlar)
 
-# mevalar=['olma','anor','anjir','shaftoli', 'orik','tarvuz','qovun','banan']
+mevalar=['olma','anor','anjir','shaftoli', 'orik','tarvuz','qovun','banan']
 # harf="o"
 #  mevalar_harf = list(filter(lambda meva: meva.startswith(harf), mevalar))
 # print(mevalar_harf)
 
 # mevalar_uzunligi=list(filter(lambda meva: len(meva)<=4, mevalar)) 
 # print(mevalar_uzunligi)
+
+# harf="r"
+# mevalar_harf=list(filter(lambda meva: meva.endswith(harf), mevalar))
+# print(mevalar_harf)
