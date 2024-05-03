@@ -7,6 +7,7 @@ Created on Sun Apr 28 11:36:41 2024
 import random as r 
 
 def son_top(x=10):
+    print("Men PIRMUHAMMAD tomonidan tayyorlangan kampyuterman!(BOT)")
     tasodifiy_son=r.randint(1, x)
     print(f"Men 1 dan {x} gacha son o'yladim. Topa olasizmi?")
     tahminlar=0
