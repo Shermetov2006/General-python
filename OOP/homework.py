@@ -30,4 +30,30 @@ Created on Fri May  3 17:18:40 2024
 # users=user("maqsad", "Maq", 12345)
 # users2=user("vcx", "vcx", 45656)
 
- 
+
+# Avto degan yangi klass yarating. Unga avtomobillarga doir
+#  bo'lgan bir nechta xususiyatlar (model, rang, korobka, narh va hokazo)
+#  qo'shing. Ayrim xususiyatlarga standart qiymat bering (masalan, kilometer=0)
+
+# class Car:
+#     def __init___(self, make, model, rang, korobka, narh):
+#         self.make = make
+#         self.model = model
+#         self.rang = rang
+#         self.korobka = korobka
+#         self.narh = narh
+#         self.km = 0
+
+#     def get_make(self):
+#         return self.make
+
+#     def get_model(self):
+#         return self.model
+
+#     def get_rang(self):
+#         return self.rang
+
+#     def get_gear(self):
+#         return
+# cars=Car("tesla")
+        
