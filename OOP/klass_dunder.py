@@ -34,33 +34,36 @@ avto1=Avto("Getaur", "qora", "avtamat", 10000, 1000)
 avto2=Avto("Getaur", "qora", "avtamat", 20000, 1000)   
 
 
-# class Avtosalon:
-#     def init(self, name):
-#         self.name=name
-#         self.avtolar=[]
+class Avtosalon:
+    def __init__(self, name):
+        self.name=name
+        self.avtolar=[]
         
-#     def repr(self):
-#         return f"Avto: {self.name} avtosaloni"
+    def repr(self):
+        return f"Avto: {self.name} avtosaloni"
     
-#     def len(self):
-#         return len(self.avtolar)
+    def len(self):
+        return len(self.avtolar)
     
-#     def getitem(self,index):
-#         return self.avtolar[index]
-#     def setitem(self,index,qiymat):
-#         self.avtolar[index]=qiymat
+    def getitem(self,index):
+        return self.avtolar[index]
+    def setitem(self,index,qiymat):
+        self.avtolar[index]=qiymat
+     
+    def __call__ (self):
+        return [avto for avto in self.avtolar]
     
-#     def add_avto(self,*qiymat):
-#         for avto in qiymat:
-#             if isinstance(avto, Avto):
-#                 self.avtolar.append(avto)
-#             else:
-#                 print("Avto kiriting!")
+    def add_avto(self,*qiymat):
+        for avto in qiymat:
+            if isinstance(avto, Avto):
+                self.avtolar.append(avto)
+            else:
+                print("Avto kiriting!")
 
-# salon1=Avtosalon("MaxAvto")
+salon1=Avtosalon("MaxAvto")
                 
               
-# avto1=Avto("Getaur", "qora", "avtamat", 20000, 1000)
-# avto2=Avto("malibu", "qora", "avtamat", 20000, 1000)
-# avto3=Avto("nexia", "qora", "avtamat", 10000, 1000)
-# salon1.add_avto(avto1,avto2,avto3)
+avto1=Avto("Getaur", "qora", "avtamat", 20000, 1000)
+avto2=Avto("malibu", "qora", "avtamat", 20000, 1000)
+avto3=Avto("nexia", "qora", "avtamat", 10000, 1000)
+salon1.add_avto(avto1,avto2,avto3)
